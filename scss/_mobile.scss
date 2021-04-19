@@ -73,6 +73,9 @@
 
 // Smartphones
 @include mediaSm{
+    main{
+        padding: 1rem;
+    }
     main#home h1{
         margin : auto;
         margin-top: 10vh;
@@ -82,11 +85,11 @@
     }
 
     .boxes {
-        padding: 10px;
+        padding: 0px;
         div{
         font-size: 1rem;
-        
         }
+    
     }
     
 }
